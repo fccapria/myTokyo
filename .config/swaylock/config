@@ -3,6 +3,7 @@ image=~/immagini/wp/tokyonight/roci_wall.png
 hide-keyboard-layout
 font=JetBrainsMono Nerd Font
 font-size=16
+indicator-y-position=150
 #indicator-caps-lock
 #tiling
 #indicator-radius=300

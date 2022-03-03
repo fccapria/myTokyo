@@ -60,9 +60,9 @@ window#waybar {
     border-radius: 0px 5px 5px 0px;
     margin-right: 10px;
     margin: 5px;
-    margin-left: 0px;
+    margin-left: -15px;
     border-radius: 5px;
-    padding: 5px;
+    padding: 0px 15px;
 }
 
 #clock {
@@ -87,16 +87,23 @@ window#waybar {
 }
 
 #backlight {
-    background-color: #db4b4b;
+    background-color: #24283b;
     color: #db4b4b;
+    border-radius: 0px 0px 0px 0px;
+    margin: 5px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0px 0px;
 }
 
 #network {
     color: #f7768e;
     border-radius: 5px 0px 0px 5px;
+    margin-right: 0px;
 }
 
 #pulseaudio {
-	
-color: #e0af68;
+    color: #e0af68;
+    border-radius: 5px 0px 0px 5px;
+    margin-left: -2px;
 }

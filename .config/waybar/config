@@ -2,7 +2,7 @@
     "position": "top", 
     "height": 30,
     "modules-left": ["sway/workspaces"],
-    "modules-right": ["network", "pulseaudio", "battery", "clock", "tray"],
+    "modules-right": ["network", "pulseaudio", "backlight", "battery", "clock", "tray"],
     // Modules configuration
 	"clock": {
 		"format": "{:%H:%M}",
@@ -30,7 +30,7 @@
         	"format-wifi": "  {essid}",
         	"format-ethernet": "{ifname}: {ipaddr}/{cidr} ",
         	"format-linked": "{ifname} (No IP) ",
-        	"format-disconnected": "󰤮 Disconnected",
+        	"format-disconnected": "Disconnected",
         	"format-alt": "{ifname}: {ipaddr}/{cidr}"
 	},
 
@@ -46,8 +46,8 @@
 	},
 
 	"pulseaudio": {
-		"format": "{icon}  {volume}%",
-        	"format-muted": "󰖁 Muted",
+		"format": "{icon} {volume}%",
+        	"format-muted": "muted",
         "format-icons": {
             "headphone": "",
             "hands-free": "",

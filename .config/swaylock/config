@@ -1,0 +1,14 @@
+image=~/immagini/wp/tokyonight/roci_wall.png
+#ignore-empty-password
+hide-keyboard-layout
+font=JetBrainsMono Nerd Font
+font-size=16
+#indicator-caps-lock
+#tiling
+#indicator-radius=300
+#indicator-thickness=3
+#inside-color=00000000
+#key-hl-color=FFFFFF88
+#bs-hl-color=000000AA
+#line-color=000000
+#ring-color=88888888

@@ -1,0 +1,61 @@
+//original code: https://github.com/dvogeldev/amber-dracula
+
+configuration {
+	font:							"Ubuntu 27";
+    disable-history:            	false;
+	sidebar-mode: 					false;
+	show-icons:                     false;
+}
+
+
+* {
+	bg:								#282a36;
+	bg-light:						#44475a;
+	fg:								#f8f8f2;
+	button:							#6272a4;
+	background-color:				@bg;
+	text-color:						@fg;
+}
+
+window {
+    transparency:                   "real";
+    border-radius:                  0px;
+    location:                       center;
+	width:							600px;
+}
+
+listview {
+    columns:						5;
+    lines:							1;
+    spacing:                        12px;
+    cycle:                          true;
+    dynamic:                        true;
+    layout:                         vertical;
+}
+
+mainbox {
+    children:                       [ listview ];
+    spacing:                        20px;
+    margin:                         20px;
+}
+
+element {
+    background-color:               @bg-light;
+    border-radius:                  5px;
+}
+
+element-text {
+    background-color: 				inherit;
+    text-color:       				inherit;
+    expand:                         true;
+    horizontal-align:               0.5;
+    vertical-align:                 0.5;
+    margin:                         20px 15px 20px 15px;
+}
+
+element selected {
+//	text-color: 					@bg;
+	background-color:               @button;
+	border-radius:                  5px;
+}
+

@@ -2,7 +2,7 @@
     "position": "top", 
     "height": 30,
     "modules-left": ["sway/workspaces"],
-    "modules-right": ["network", "pulseaudio", "battery", "clock"],
+    "modules-right": ["network", "pulseaudio", "battery", "clock", "tray"],
     // Modules configuration
 	"clock": {
 		"format": "{:%H:%M}",
@@ -31,6 +31,11 @@
         	"format-linked": "{ifname} (No IP) ",
         	"format-disconnected": "󰤮 Disconnected",
         	"format-alt": "{ifname}: {ipaddr}/{cidr}"
+	},
+
+	"tray": {
+		"icon-size": 21,
+		"spacing": 10
 	},
 
 	"backlight": {

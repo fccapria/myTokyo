@@ -25,6 +25,7 @@
         // "format-full": "",
         "format-icons": ["", "", "", "", ""]
 	},
+	
 	"network": {
         	"format-wifi": "  {essid}",
         	"format-ethernet": "{ifname}: {ipaddr}/{cidr} ",

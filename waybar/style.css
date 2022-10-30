@@ -22,7 +22,7 @@ window#waybar {
     color: #c0caf5;
 }
 
-#workspaces button.focused {
+#workspaces button.active {
     color: #24283b;
     background-color: #7aa2f7;
     border-radius: 5px;
@@ -62,7 +62,7 @@ window#waybar {
     margin: 5px;
     margin-left: -15px;
     border-radius: 5px;
-    padding: 0px 15px;
+    padding: 0px 5px;
 }
 
 #clock {
@@ -105,5 +105,12 @@ window#waybar {
 #pulseaudio {
     color: #e0af68;
     border-radius: 5px 0px 0px 5px;
+    margin-left: -2px;
+}
+
+#pulseaudio.muted {
+    background-color: #e0af68;
+    color: #24283b;
+    border-radius: 5px 5px 5px 5px;
     margin-left: -2px;
 }

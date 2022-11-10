@@ -30,7 +30,7 @@ smart_borders on
 gaps inner   4
 gaps outer   3
 
-output "*" bg ~/immagini/wp/tokyonight/roci_wall.png fill
+output "*" bg ~/--- fill
 
 #
 # Example configuration:
